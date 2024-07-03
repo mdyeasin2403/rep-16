@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BT5</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+ <!-- forms start -->
+<div class="container w-75 form1">
+  <form action="" class="">
+  <!-- up start -->
+  <div class="row mb-3">
+    <div class="col-lg-6">
+      <label for="up_1" class="form-label">Username</label>
+      <input type="password" id="up_1" class="form-control up_1" placeholder="Search here">
+      <div id="" class="form-text">Your password must be 8-20 characters long.</div>
+    </div>
+    <div class="col-lg-6">
+      <label for="up_1" class="form-label">Password</label>
+      <input type="password" id="up_1" class="form-control up_1" placeholder="Search here">
+      <div id="" class="form-text">Your password must be 8-20 characters long.</div>
+    </div>
+  </div>
+  <!-- ep start -->
+  <div class="row mb-3">
+    <div class="col-lg-1">
+      <label for="email" class="form-label ms-1">Email</label>
+    </div>
+    <div class="col-lg-4">
+      <input type="email" id="email" class="form-control email w-100">
+    </div>
+    <div class="col-lg-2">
+      <label for="number" class="form-label ms-3">Phone Number</label>
+    </div>
+    <div class="col-lg-4">
+      <input type="number" id="number" class="form-control number w-100">
+    </div>
+  </div>
+  <!-- fc start -->
+  <div class="row mb-3">
+    <div class="col-lg-9">
+      <label for="file" class="form-label">Large file input example</label>
+      <input class="form-control" id="file" type="file">
+    </div>
+    <div class="col-lg-1">
+      <label for="file" class="form-label">Color</label>
+      <input class="form-control-color" id="file" type="color">
+    </div>
+  </div>
+  <!-- data-select start -->
+  <div class="row mb-3">
+    <div class="datalist col-lg-6">
+     <label for="exampleDataList" class="form-label">Datalist</label>
+     <input class="form-control" list="list" id="exampleDataList" placeholder="Type to search...">
+     <datalist id="list">
+        <option value="Bangladesh">
+        <option value="New York">
+        <option value="India">
+        <option value="Nepal">
+        <option value="Pakistan">
+     </datalist>
+    </div>
+    <div class="select col-lg-6 align-content-end">
+     <select class="form-select">
+      <option selected>Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+     </select>
+    </div>
+  </div>
+  <!-- check-radio start -->
+  <div class="row mb-3">
+   <div class="form-check col-lg-1 ms-3">
+     <input class="form-check-input" type="checkbox" name="check1" id="check">
+     <label class="form-check-label" for="check">
+      Enabled
+     </label>
+    </div>
+    <div class="form-check col-lg-1 ms-3">
+     <input class="form-check-input" type="checkbox" name="check1" id="check">
+     <label class="form-check-label" for="check">
+     Disabled
+     </label>
+    </div>
+    <div class="form-check col-lg-1 ms-3">
+    <input class="form-check-input" type="radio" name="radio" id="radio">
+    <label class="form-check-label" for="radio">
+    Radio
+    </label>
+   </div>
+  </div>
+  <!-- switch start -->
+  <div class="form-check form-switch mb-3">
+    <input class="form-check-input" type="checkbox" role="switch" id="switch">
+     <label class="form-check-label" for="switch">
+      Switched
+     </label>
+  </div>
+  <!-- range start -->
+  <div class="range row mb-3">
+    <div class="col-lg-1">
+      <label for="range" class="form-label">Range</label>
+    </div>
+    <div class="col-lg-3 align-items-center">
+      <input type="range" class="form-range" step="0.5">
+    </div>
+  </div>
+  <!-- in-ground start -->
+  <div class="row mb-3">
+      <label for="url" class="form-label">Your vanity URL</label>
+    <div class="input-group col-lg">
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+      <span class="input-group-text">@</span>
+      <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+    </div>
+    <div class="form-text" id="basic-addon4">Help text goes outside the input group.</div>
+  </div>
+  <!-- b-drop start -->
+  <div class="row mb-3">
+   <div class="col-lg-6">
+    <div class="input-group">
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+    <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+    </div>
+   </div>
+  <div class="col-lg-6">
+  <div class="input-group mb-3">
+    <label class="input-group-text" for="inputGroupSelect01">Options</label>
+    <select class="form-select" id="inputGroupSelect01">
+    <option selected>Choose...</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+    </select>
+  </div>
+  </div>
+  <!-- textarea -->
+ <div class="form-floating mb-3">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2" class="ps-4 text-dark">Comments</label>
+ </div>
+ <!-- submit-reset -->
+ <div class="row">
+ <div class="col-lg-1 btn">
+  <button type="submit" class="btn btn-primary">Submit</button>
+ </div>
+ <div class="col-lg-1 btn">
+  <button type="reset" class="btn btn-danger">Reset</button>
+ </div>
+ </div>
+ </form>
+</div>
+<!-- forms end -->
+
+
+<!-- form 2 -->
+ <div class="container">
+  <form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomUsername" class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+      <div class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">State</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom05" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="validationCustom05" required>
+    <div class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit</button>
+  </div>
+
+  <form class="was-validated">
+  <div class="mb-3">
+    <label for="validationTextarea" class="form-label">Textarea</label>
+    <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+    <div class="invalid-feedback">
+      Please enter a message in the textarea.
+    </div>
+  </div>
+
+  <div class="form-check mb-3">
+    <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+    <label class="form-check-label" for="validationFormCheck1">Check this checkbox</label>
+    <div class="invalid-feedback">Example invalid feedback text</div>
+  </div>
+
+  <div class="form-check">
+    <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+    <label class="form-check-label" for="validationFormCheck2">Toggle this radio</label>
+  </div>
+  <div class="form-check mb-3">
+    <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+    <label class="form-check-label" for="validationFormCheck3">Or toggle this other radio</label>
+    <div class="invalid-feedback">More example invalid feedback text</div>
+  </div>
+
+  <div class="mb-3">
+    <select class="form-select" required aria-label="select example">
+      <option value="">Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+    <div class="invalid-feedback">Example invalid select feedback</div>
+  </div>
+
+  <div class="mb-3">
+    <input type="file" class="form-control" aria-label="file example" required>
+    <div class="invalid-feedback">Example invalid form file feedback</div>
+  </div>
+
+  <div class="mb-3">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+ </form>
+ </div>
+<!-- form 2 -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
